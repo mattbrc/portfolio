@@ -8,20 +8,55 @@ export default function Page() {
         Connect
       </h1>
       <ul className="py-2">
-        <li>
-          <Link href={contactConfig.instagram}>Instagram</Link>
+        <li className="mb-1">
+          <Link
+            href={contactConfig.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline decoration-red-400 underline-offset-4"
+          >
+            Instagram
+          </Link>
         </li>
-        <li>
-          <Link href={contactConfig.strava}>Strava</Link>
+        <li className="mb-1">
+          <Link
+            href={contactConfig.strava}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline decoration-red-400 underline-offset-4"
+          >
+            Strava
+          </Link>
         </li>
-        <li>
-          <Link href={contactConfig.x}>X</Link>
+        <li className="mb-1">
+          <Link
+            href={contactConfig.x}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline decoration-red-400 underline-offset-4"
+          >
+            X
+          </Link>
         </li>
-        <li>
-          <Link href={contactConfig.github}>Github</Link>
+        <li className="mb-1">
+          <Link
+            href={contactConfig.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline decoration-red-400 underline-offset-4"
+          >
+            Github
+          </Link>
         </li>
-        <li>
-          <Link href={contactConfig.linkedin}>LinkedIn</Link>
+        <li className="mb-1">
+          <Link
+            href={contactConfig.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline decoration-red-400 underline-offset-4"
+          >
+            LinkedIn
+          </Link>
         </li>
       </ul>
     </div>
