@@ -4,7 +4,7 @@ import { ModeToggle } from "./mode-toggle";
 
 export function Footer() {
   return (
-    <div className="fixed bottom-0 left-0 p-4 flex justify-between w-full">
+    <div className="border border-red-400 fixed bottom-0 left-0 p-4 flex justify-between w-full">
       <footer className="flex h-10 w-full shrink-0 items-center px-4 md:px-6 py-8">
         <div className="mr-auto">
           <div>
