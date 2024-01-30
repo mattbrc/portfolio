@@ -9,7 +9,7 @@ export default function Home() {
       <h1 className="font-extrabold text-xl underline decoration-red-400 underline-offset-4">
         Home
       </h1>
-      <p className="py-2">hello</p>
+      <p className="py-2 overscroll-none">hello</p>
     </div>
   );
 }
