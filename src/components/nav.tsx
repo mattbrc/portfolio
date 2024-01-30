@@ -27,7 +27,7 @@ export function Nav() {
         className="text-sm font-medium hover:underline underline-offset-4"
         href="/contact"
       >
-        Contact
+        Connect
       </Link>
       <ModeToggle />
     </nav>
