@@ -26,11 +26,16 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex flex-col min-h-screen justify-between p-4">
+          {/* <div className="flex flex-col min-h-screen justify-between p-4">
             <Nav />
             <main className="mb-auto flex flex-col p-4">{children}</main>
             <Footer />
-          </div>
+          </div> */}
+          <main className="h-screen overflow-hidden flex w-full py-20 px-8">
+            <Nav />
+            {children}
+            <Footer />
+          </main>
         </ThemeProvider>
       </body>
     </html>
