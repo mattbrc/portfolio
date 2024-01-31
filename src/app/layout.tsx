@@ -35,7 +35,7 @@ export default function RootLayout({
             <main className="mb-auto flex flex-col p-4">{children}</main>
             <Footer />
           </div> */}
-          <main className="h-screen overflow-hidden flex w-full py-14">
+          <main className="h-screen overflow-hidden flex w-full py-14 max-w-2xl flex-col items-center mx-auto">
             <Nav />
             {children}
             <Footer />
