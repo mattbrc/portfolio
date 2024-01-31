@@ -5,7 +5,7 @@ import { contactConfig } from "@/config/contact";
 
 export function Nav() {
   return (
-    <div className="bg-background/50 fixed top-0 left-0 p-4 flex items-end w-full flex-col gap-2 tracking-tighter">
+    <div className="bg-background/40 fixed top-0 left-0 p-4 flex items-end w-full flex-col gap-2 tracking-tighter">
       <nav className="items-center font-mono ml-auto flex gap-4 sm:gap-6">
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
