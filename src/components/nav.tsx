@@ -10,30 +10,40 @@ export function Nav() {
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
           href={contactConfig.github}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Github
         </Link>
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
           href={contactConfig.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           LinkedIn
         </Link>
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
           href={contactConfig.strava}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Strava
         </Link>
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
           href={contactConfig.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Instagram
         </Link>
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
           href={contactConfig.x}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           X
         </Link>
