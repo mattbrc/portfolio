@@ -107,7 +107,7 @@ export default function Home() {
         analytics and engineering improvements for the Army&apos;s largest HR
         system with 1M+ users.
       </p>
-      <Badge variant="typescript">US Army</Badge>
+      <Badge variant="army">US Army</Badge>
     </div>
   );
 }

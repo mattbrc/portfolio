@@ -16,6 +16,7 @@ const badgeVariants = cva(
           "border-transparent font-mono bg-indigo-700 text-destructive-foreground hover:bg-typescript/80",
         astro:
           "border-transparent font-mono bg-orange-600 text-destructive-foreground hover:bg-destructive/80",
+        army: "border-transparent font-mono bg-zinc-700 text-yellow-400 hover:bg-destructive/80",
         secondary:
           "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive:
