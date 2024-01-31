@@ -1,6 +1,7 @@
 import Link from "next/link";
 import * as React from "react";
 import { ModeToggle } from "./mode-toggle";
+import { contactConfig } from "@/config/contact";
 
 export function Nav() {
   return (
@@ -8,27 +9,33 @@ export function Nav() {
       <nav className="items-center font-mono ml-auto flex gap-4 sm:gap-6">
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
-          href="/"
+          href={contactConfig.github}
         >
-          Home
+          Github
         </Link>
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
-          href="/about"
+          href={contactConfig.linkedin}
         >
-          About
+          LinkedIn
         </Link>
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
-          href="/projects"
+          href={contactConfig.strava}
         >
-          Projects
+          Strava
         </Link>
         <Link
           className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
-          href="/contact"
+          href={contactConfig.instagram}
         >
-          Connect
+          Instagram
+        </Link>
+        <Link
+          className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
+          href={contactConfig.x}
+        >
+          X
         </Link>
         <ModeToggle />
       </nav>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="pt-4">
+    <div className="pt-4 px-8">
       <h1 className="font-extrabold text-xl underline decoration-red-400 underline-offset-4">
         Connect
       </h1>

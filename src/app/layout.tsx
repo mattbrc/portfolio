@@ -18,11 +18,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
+    <html
+      lang="en"
+      className={`${GeistSans.variable} ${GeistMono.variable}`}
+      suppressHydrationWarning
+    >
       <body className={cn("min-h-screen antialiased")}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
@@ -31,7 +35,7 @@ export default function RootLayout({
             <main className="mb-auto flex flex-col p-4">{children}</main>
             <Footer />
           </div> */}
-          <main className="h-screen overflow-hidden flex w-full py-20 px-8">
+          <main className="h-screen overflow-hidden flex w-full py-20">
             <Nav />
             {children}
             <Footer />
