@@ -8,7 +8,7 @@ export function Nav() {
     <div className="fixed top-0 left-0 p-4 flex items-end w-full flex-col gap-2 tracking-tighter">
       <nav className="items-center font-mono ml-auto flex gap-4 sm:gap-6">
         <Link
-          className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
+          className="text-sm font-medium hover:underline underline-offset-4"
           href={contactConfig.github}
           target="_blank"
           rel="noopener noreferrer"
@@ -16,7 +16,7 @@ export function Nav() {
           Github
         </Link>
         <Link
-          className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
+          className="text-sm font-medium hover:underline underline-offset-4"
           href={contactConfig.linkedin}
           target="_blank"
           rel="noopener noreferrer"
@@ -24,7 +24,7 @@ export function Nav() {
           LinkedIn
         </Link>
         <Link
-          className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
+          className="text-sm font-medium hover:underline underline-offset-4"
           href={contactConfig.strava}
           target="_blank"
           rel="noopener noreferrer"
@@ -32,7 +32,7 @@ export function Nav() {
           Strava
         </Link>
         <Link
-          className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
+          className="text-sm font-medium hover:underline underline-offset-4"
           href={contactConfig.instagram}
           target="_blank"
           rel="noopener noreferrer"
@@ -40,7 +40,7 @@ export function Nav() {
           Instagram
         </Link>
         <Link
-          className="text-sm font-medium hover:underline decoration-red-400 underline-offset-4"
+          className="text-sm font-medium hover:underline underline-offset-4"
           href={contactConfig.x}
           target="_blank"
           rel="noopener noreferrer"
