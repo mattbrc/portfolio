@@ -53,6 +53,19 @@ export default function Home() {
         A method of computing gas cost in USD for foundry users. Convert
         estimated function gas usage to USD.
       </p>
+      <div className="flex items-center pt-4">
+        <Link
+          href="https://github.com/mattbrc/ag-links"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="mr-3 decoration-red-500 underline underline-offset-4 font-semibold">
+            AG Links
+          </p>
+        </Link>
+        <Badge>TypeScript</Badge>
+      </div>
+      <p className="py-2">Acid Gambit Linktree.</p>
     </div>
   );
 }
