@@ -46,7 +46,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <p className="mr-3 underline underline-offset-4 font-semibold">
-            AG Blog
+            Astro Blog
           </p>
         </Link>
         <Badge variant="astro">Astro</Badge>
