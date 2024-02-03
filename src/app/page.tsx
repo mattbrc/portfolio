@@ -41,7 +41,7 @@ export default function Home() {
       <p className="pt-2">Custom strava heatmaps.</p>
       <div className="flex items-center pt-4">
         <Link
-          href="https://github.com/mattbrc/endurance-is-art"
+          href="https://blog.acidgambit.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -54,7 +54,7 @@ export default function Home() {
       <p className="pt-2">Backup to the AG Substack Blog written in Astro.</p>
       <div className="flex items-center pt-4">
         <Link
-          href="https://github.com/mattbrc/blog"
+          href="https://github.com/mattbrc/gastimate"
           target="_blank"
           rel="noopener noreferrer"
         >
