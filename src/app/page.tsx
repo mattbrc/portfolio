@@ -51,7 +51,10 @@ export default function Home() {
         </Link>
         <Badge variant="astro">Astro</Badge>
       </div>
-      <p className="pt-2">Backup to the AG Substack Blog written in Astro.</p>
+      <p className="pt-2">
+        Minimalist blog inspired by Bearblog and backup to the AG Substack Blog
+        written in Astro.
+      </p>
       <div className="flex items-center pt-4">
         <Link
           href="https://github.com/mattbrc/gastimate"
