@@ -2,6 +2,7 @@ import Link from "next/link";
 import * as React from "react";
 import { ModeToggle } from "./mode-toggle";
 import { contactConfig } from "@/config/contact";
+import { Button } from "./ui/button";
 
 export function Nav() {
   return (
@@ -13,7 +14,7 @@ export function Nav() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
+          X
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
@@ -21,9 +22,12 @@ export function Nav() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn
+          Telegram
         </Link>
-        <Link
+        <Button asChild>
+          <Link href="">Buy on UNISWAP</Link>
+        </Button>
+        {/* <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href={contactConfig.strava}
           target="_blank"
@@ -46,7 +50,7 @@ export function Nav() {
           rel="noopener noreferrer"
         >
           X
-        </Link>
+        </Link> */}
         <ModeToggle />
       </nav>
     </div>

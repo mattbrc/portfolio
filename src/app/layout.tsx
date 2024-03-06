@@ -8,8 +8,8 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Matt Wilder",
-  description: "Portfolio",
+  title: "$ADYN",
+  description: "American Dynamism",
 };
 
 export default function RootLayout({
@@ -35,7 +35,7 @@ export default function RootLayout({
             <main className="mb-auto flex flex-col p-4">{children}</main>
             <Footer />
           </div> */}
-          <main className="h-screen overflow-hidden flex w-full py-14 max-w-2xl flex-col items-center mx-auto">
+          <main className="h-screen flex w-full py-14 max-w-2xl flex-col items-center mx-auto">
             <Nav />
             {children}
             <Footer />
