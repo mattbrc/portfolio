@@ -19,8 +19,8 @@ export default function Page() {
       >
         Github
       </Link>
-      <p className="pt-4 font-bold text-lg">Heatmaps</p>
-      <p className="py-2">Custom strava heatmaps.</p>
+      <p className="pt-4 font-bold text-lg">AG Links</p>
+      <p className="py-2">Custom Acid Gambit link page.</p>
       <Link
         className="hover:underline decoration-red-400 underline-offset-4"
         href="https://github.com/mattbrc/endurance-is-art"
