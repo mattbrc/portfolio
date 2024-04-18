@@ -28,17 +28,17 @@ export default function Home() {
       </p>
       <div className="flex items-center pt-4">
         <Link
-          href="https://github.com/mattbrc/endurance-is-art"
+          href="https://links.acidgambit.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <p className="mr-3 underline underline-offset-4 font-semibold">
-            Heatmaps
+            AG Links
           </p>
         </Link>
         <Badge variant="typescript">TypeScript</Badge>
       </div>
-      <p className="pt-2">Custom strava heatmaps.</p>
+      <p className="pt-2">Custom Acid Gambit link page.</p>
       <div className="flex items-center pt-4">
         <Link
           href="https://blog.acidgambit.com/"
