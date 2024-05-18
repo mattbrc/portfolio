@@ -87,18 +87,16 @@ export default function Home() {
         A method of computing gas cost in USD for foundry users. Convert
         estimated function gas usage to USD.
       </p>
-
       <h1 className="font-mono text-xl py-1 pt-3">Work</h1>
       <Separator />
 
-      <div className="mb-12">
-        <p className="pt-4 pb-1">
-          Currently a program manager at the Pentagon with a focus on data
-          analytics and engineering improvements for the Army&apos;s largest HR
-          system with 1M+ users.
-        </p>
-        <Badge variant="army">US Army</Badge>
-      </div>
+      <p className="pt-4 pb-1">
+        Currently a program manager at the Pentagon with a focus on data
+        analytics and engineering improvements for the Army&apos;s largest HR
+        system with 1M+ users.
+      </p>
+      <Badge variant="army">US Army</Badge>
+      <div className="h-16"></div>
     </div>
   );
 }
