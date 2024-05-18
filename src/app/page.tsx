@@ -57,6 +57,22 @@ export default function Home() {
       </p>
       <div className="flex items-center pt-4">
         <Link
+          href="/multi_route_map.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="mr-3 underline underline-offset-4 font-semibold">
+            Running Heatmap
+          </p>
+        </Link>
+        <Badge variant="typescript">Python</Badge>
+      </div>
+      <p className="pt-2">
+        Simple heatmap of everywhere I have ever run. Ingests GPX data from
+        Strava. Zoom out and explore the US!
+      </p>
+      <div className="flex items-center pt-4">
+        <Link
           href="https://github.com/mattbrc/gastimate"
           target="_blank"
           rel="noopener noreferrer"
