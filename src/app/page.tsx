@@ -96,7 +96,6 @@ export default function Home() {
         system with 1M+ users.
       </p>
       <Badge variant="army">US Army</Badge>
-      <div className="h-16"></div>
     </div>
   );
 }
