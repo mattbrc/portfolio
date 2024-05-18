@@ -91,7 +91,7 @@ export default function Home() {
       <h1 className="font-mono text-xl py-1 pt-3">Work</h1>
       <Separator />
 
-      <div className="pb-12">
+      <div className="mb-12">
         <p className="pt-4 pb-1">
           Currently a program manager at the Pentagon with a focus on data
           analytics and engineering improvements for the Army&apos;s largest HR
