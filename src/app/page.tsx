@@ -55,7 +55,7 @@ export default function Home() {
         Minimalist blog inspired by Bearblog and backup to the AG Substack Blog
         written in Astro.
       </p>
-      <div className="flex items-center pt-4">
+      {/* <div className="flex items-center pt-4">
         <Link
           href="/multi_route_map.html"
           target="_blank"
@@ -70,7 +70,7 @@ export default function Home() {
       <p className="pt-2">
         Simple heatmap of everywhere I have ever run. Ingests GPX data from
         Strava. Zoom out and explore the US!
-      </p>
+      </p> */}
       <div className="flex items-center pt-4">
         <Link
           href="https://github.com/mattbrc/gastimate"
