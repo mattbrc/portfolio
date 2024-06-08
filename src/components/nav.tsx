@@ -10,16 +10,12 @@ export function Nav() {
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href="/"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           Home
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href="/about"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           About
         </Link>
