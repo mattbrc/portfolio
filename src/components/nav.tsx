@@ -9,6 +9,22 @@ export function Nav() {
       <nav className="items-center font-mono ml-auto flex gap-4 sm:gap-6">
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
+          href="/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Home
+        </Link>
+        <Link
+          className="text-sm font-medium hover:underline underline-offset-4"
+          href="/about"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          About
+        </Link>
+        <Link
+          className="text-sm font-medium hover:underline underline-offset-4"
           href={contactConfig.github}
           target="_blank"
           rel="noopener noreferrer"
@@ -25,19 +41,11 @@ export function Nav() {
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
-          href={contactConfig.strava}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Strava
-        </Link>
-        <Link
-          className="text-sm font-medium hover:underline underline-offset-4"
           href={contactConfig.instagram}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Instagram
+          IG
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
